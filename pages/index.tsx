@@ -2,6 +2,7 @@ import { NextSeo } from "next-seo";
 import { GetStaticProps } from "next";
 import { Hero } from "../components/sections/hero";
 import { Work } from "../components/sections/work";
+import { Alert } from "../components/sections/alert";
 import { Footer } from "../components/sections/footer";
 import { Achievements } from "../components/sections/achievements";
 import { GitHubActivity } from "../components/sections/github-activity";
@@ -65,11 +66,14 @@ export const getStaticProps: GetStaticProps<AppProps> = async () => {
 export default ({ achievements, repos, projects }: AppProps) => (
   <>
     <NextSeo
-      title={"Atharva Kulkarni – Enterprise UI Design • FullStack Development - CompileZero"}
+      title={
+        "Atharva Kulkarni – Enterprise UI Design • FullStack Development - CompileZero"
+      }
       titleTemplate={"%s"}
       description="Hey I'm Atharva! I help companies and developers create beautiful software products focused on intuitive UI."
     />
     <Hero />
+    <Alert />
     <Work projects={projects} preview />
     <Achievements achievements={achievements} />
     <GitHubActivity {...repos} />
