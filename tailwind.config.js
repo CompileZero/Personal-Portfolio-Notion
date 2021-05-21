@@ -14,6 +14,7 @@ module.exports = {
       },
       animation: {
         enter: "enter 200ms ease-out",
+
       },
       keyframes: {
         enter: {

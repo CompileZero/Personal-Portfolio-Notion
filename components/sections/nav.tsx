@@ -16,8 +16,8 @@ export const Nav: React.FC = () => (
         </Link>
       </li> */}
         <li>
-          <Link href="/work">
-            <a className="text-red-200 text-sm font-medium mr-2 px-2 py-1 rounded-md bg-gray-700 hover:bg-gray-600 text-gray-100 py-1 px-6">
+          <Link href="/">
+            <a href="https://drive.google.com/file/d/1ZY3HqcGX2RcewZkAHiKAPtThlNmfPf_p/view?usp=sharing" target="_blank" className="text-red-200 text-sm font-medium mr-2 px-2 py-1 rounded-md bg-gray-700 hover:bg-gray-600 text-gray-100 py-1 px-6">
               Resume
             </a>
           </Link>
