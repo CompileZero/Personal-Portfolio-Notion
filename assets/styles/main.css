@@ -28,7 +28,7 @@ a:focus,
 }
 
 .post-container {
-  @apply max-w-3xl mx-auto w-full px-4;
+  @apply max-w-5xl w-full mx-auto px-4;
 }
 
 .achievement-notion .notion-text {
