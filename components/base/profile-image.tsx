@@ -4,7 +4,7 @@ export const ProfileImage: React.FC<{
   size?: number;
 }> = ({ size = 128 }) => (
   <div
-    className="relative rounded-full animate-bounce"
+    className="relative rounded-full"
     style={{
       width: size,
       height: size,
