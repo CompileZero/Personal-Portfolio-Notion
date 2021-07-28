@@ -13,8 +13,8 @@ const generateRssItem = (post: Post): string => `
 export const generateRss = (posts: Post[]): string => `
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Timo Lins – Blog</title>
-  <link>https://timo.sh/blog</link>
+  <title>Atharva Kulkarni– Blog</title>
+  <link>https://atharvak.ml/blog</link>
   <description>Writing about coding, design and things I like</description>
   <language>en</language>
   <lastBuildDate>${new Date(posts[0].date).toUTCString()}</lastBuildDate>

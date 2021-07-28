@@ -29,7 +29,7 @@ export default ({ posts }: BlogProps) => (
   <>
     <Nav />
     <NextSeo
-      title={"Blog ~ Timo Lins"}
+      title={"Blog ~ Atharva Kulkarni"}
       description="My personal blog about design, coding and everything else that is on my mind."
     />
     <div className="flex-1">

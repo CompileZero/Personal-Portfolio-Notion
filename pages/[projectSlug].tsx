@@ -95,7 +95,7 @@ const BlogPost: React.FC<PostProps> = ({
           handle: "@timolins",
           cardType: "summary_large_image",
         }}
-        titleTemplate="%s – Timo Lins / Work"
+        titleTemplate="%s – Atharva Kulkarni / Work"
       />
       <Nav />
       <div className="my-8 w-full max-w-3xl mx-auto px-4">

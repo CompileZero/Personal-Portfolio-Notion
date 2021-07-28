@@ -83,11 +83,11 @@ const BlogPost: React.FC<PostProps> = ({
           },
         }}
         twitter={{
-          handle: "@timolins",
+          handle: "@compilezero",
           cardType: "summary_large_image",
         }}
         canonical={`https://timo.sh/blog/${post.slug}`}
-        titleTemplate="%s – Timo Lins / Blog"
+        titleTemplate="%s – Atharva Kulkarni / Blog"
       />
       <Head>
         <meta name="date" content={new Date(post.date).toDateString()} />
