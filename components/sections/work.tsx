@@ -116,13 +116,13 @@ export const Work: React.FC<{
             <Project key={p.id} className="hidden md:flex" {...p} />
           ))}
           <div className="flex flex-col items-center justify-center text-center py-4">
-            <div className="text-lg font-bold text-gray-800">
-              Want to see more?
+            <div className="text-lg font-bold text-gray-700">
+              Want to see more of my work?
             </div>
-            <div className="text-gray-600">Explore more of my work</div>
-            <Link href="/work">
+            <div className="text-gray-600">Connect with me on LinkedIn</div>
+            <Link href="https://www.linkedin.com/in/atharva-kulkarni-96602a108/">
               <a className="mt-3 bg-gray-800 hover:bg-gray-700 text-gray-100 py-1 px-6 rounded-md">
-                View all
+                Connect
               </a>
             </Link>
           </div>
