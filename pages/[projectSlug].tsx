@@ -56,7 +56,6 @@ export const getStaticProps: GetStaticProps<
   }
 
   const blocks = await getPageBlocks(post.id);
-  // const postViewCount = await getPageViews(`/${slug}`);
 
   return {
     props: {
