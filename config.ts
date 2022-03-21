@@ -5,7 +5,7 @@ if (!githubToken) {
 
 export const config = {
   name: "Atharva Kulkarni",
-  subtitle: "Enterprise UI Design • FullStack Development",
+  subtitle: "Enterprise UI Design • Frontend Development",
   birthday: "1997-02-07",
   githubUsername: "compilezero",
   notionBlogTableId: "3a1f675cc61e47a3b77c858dc66b752a",
