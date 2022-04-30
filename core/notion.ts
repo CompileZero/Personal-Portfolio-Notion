@@ -16,6 +16,9 @@ export const toNotionImageUrl: MapImageUrl = (url, block) => {
     imageUrl.searchParams.set("id", block.value.id);
     imageUrl.searchParams.set("cache", "v2");
   }
-
-  return `https://ssfy.io/${encodeURIComponent(imageUrl.toString())}`;
+  
+  return imageUrl.toString()
+  
+  // Proxy image for better caching
+  // return `https://ssfy.io/${encodeURIComponent(imageUrl.toString())}`;
 };
