@@ -31,14 +31,6 @@ export const Hero: React.FC = () => (
           >
             GitHub
           </a>
-          <a
-            className="mx-1 md:mx-2 py-1 px-2 rounded font-semibold bg-pink-200 hover:bg-pink-300 text-pink-800"
-            data-splitbee-event="Open Website"
-            href="https://compilezero.com"
-            target="_blank"
-          >
-            CompileZero
-          </a>
         </div>
       </div>
     </div>
